@@ -1,0 +1,25 @@
+{
+  "name": "x-stix",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "jnst <jnst@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "local": "DEBUG=stix:* ts-node-dev --transpileOnly app/app.ts",
+    "build": "rm -rf dist && tsc --build tsconfig.json",
+    "start": "node dist/app.js",
+    "format": "prettier --write \"app/**/*.ts\""
+  },
+  "dependencies": {
+    "stix": "^4.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3",
+    "ts-node-dev": "^1.0.0-pre.30",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.1.6"
+  }
+}
