@@ -1619,10 +1619,10 @@ stack-trace@0.0.x:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-stix@^4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/stix/-/stix-4.2.1.tgz#176caf8c81909d8aca5ca14e1a8d5babfaf3921e"
-  integrity sha512-vEfBaN5TjDUVfTpb5ZFkt+Eze9JMLu9yBLG4HONsn+5yzZfRkcCqHPr7EQ+mRUioMQAFbCINbPnNn7skDfkR1g==
+stix@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/stix/-/stix-4.2.2.tgz#7873a195957056acb232954b6cdb68c46566e49a"
+  integrity sha512-1KYPC0JPdlAiFrBAuk/MnRTv0cxFqjYrlkeOCHp+pgJVNbNbKnCGGrbsL8hp2gc69cENdPcqL1lqy1v8fAoUkw==
   dependencies:
     "@koa/cors" "^2.2.2"
     "@types/bytes" "^3.0.0"
