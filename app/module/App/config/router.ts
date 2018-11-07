@@ -1,5 +1,5 @@
 import {Route} from 'stix';
-import {HealthController} from '../src/Controller';
+import {RootController} from '../src/Controller';
 
 /**
  * This config is where you configure the routes for your module.
@@ -7,6 +7,6 @@ import {HealthController} from '../src/Controller';
 export const router = {
   routes: [
     // prettier-ignore
-    Route.get('/health/check', HealthController, 'check'),
+    Route.get('/', RootController, 'root'),
   ],
 };
