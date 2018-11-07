@@ -7,5 +7,5 @@ export const router = {
   routes: [
     Route.get('/', RootController, 'root'),
     Route.get('/my', MyController, 'myAction'),
-  ],
+  ]
 };
